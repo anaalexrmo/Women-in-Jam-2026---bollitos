@@ -1,0 +1,8 @@
+*.rpyc
+*.rpymc
+cache/
+saves/
+log.txt
+errors.txt
+traceback.txt
+.DS_Store
