@@ -11,5 +11,5 @@ ci "¡Aargh! ¡Mis manos! ¡¿Qué le está pasando a mi piel?! ¡Maldita máqui
 ro "Mis dedos... sienten el calor de la tela. Mis manos... pesan por la culpa."
 ci "¡Cállate! ¡No hables de sentimientos, pedazo de chatarra averiada! ¡Aún tengo el control de tu chip maestro!"
 
-jump scene 4
+jump scene4
 

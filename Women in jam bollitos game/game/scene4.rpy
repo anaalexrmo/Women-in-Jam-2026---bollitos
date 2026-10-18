@@ -1,4 +1,4 @@
-## Act 4 
+## Act 4 The Neighbor´s Garden (The awakening)
 
 label scene4:
     ci "Flores... afecto... belleza barata para engañar a los estúpidos. Me repugna tanta complacencia."
@@ -7,5 +7,5 @@ label scene4:
     ci "Mi... mi visión... solo veo código y vectores de distancia... ¡Maldición, mi voz! Sueno a... hojalata..."
     ro "¿Por qué... romper lo que está vivo?"
     ci "¡CÁLLATE! ¡TÚ NO TIENES DERECHO A PREGUNTAR! ¡Aún queda una última tarea! ¡Ven conmigo a la azotea!"
-    
+
     jump scene5
