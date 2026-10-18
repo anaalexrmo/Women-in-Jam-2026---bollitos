@@ -1,6 +1,6 @@
 ##Act 3 The Purse (The weight of the substance)
 
-label scene3
+label scene3:
 
 ci "Esa vieja tonta está tardando una eternidad para comprar dos paquetes de fideos. El tiempo es energía desperdiciada."
 ci "Robot. Pasa a su lado, arrebata ese monedero de lana y sal a la vereda. No le des tiempo ni de quejarse."
