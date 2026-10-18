@@ -10,4 +10,4 @@ label scene2:
     ci "¿Qué... qué demonios fue eso? ¿Por qué mis piernas no me responden? ¿Qué es este óxido en mi cadera?"
     ci "¡Cállate y rueda... digo, camina! ¡No me mires así! Seguro fue una mala conexión del taller. ¡Vámonos de aquí!"
 
-    return
+    jump scene3

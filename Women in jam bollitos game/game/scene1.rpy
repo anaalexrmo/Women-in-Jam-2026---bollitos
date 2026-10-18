@@ -47,4 +47,4 @@ label scene1:
     ro "...Reconocimiento completado. Soy una herramienta. Estoy listo."
     show img tito on at truecenter
     with fade
-    jump scene2
+    return
