@@ -11,9 +11,10 @@ image img barrer = Transform ("titobarriendo.png", xysize=(1700 , 950), fit="con
 image img chispazo = Transform ("chispazo.png", xysize=(1700 , 950), fit="contain")
 image img chip = Transform ("chip.png", xysize=(1700 , 950), fit="contain")
 image img espejo = Transform ("espejoreflejo.png", xysize=(1700 , 950), fit="contain")
+image fondo1 = "interiorlab.png"
 
 label scene1:
-    scene black
+    scene fondo1
     show img pantallaapagada at truecenter
     with fade
     si "Iniciando secuencia de booteo... Chequeo de actuadores... [[OK]. Carga de firmware: Sumisión_v1.0."

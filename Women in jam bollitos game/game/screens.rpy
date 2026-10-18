@@ -360,10 +360,64 @@ screen main_menu():
     ## This empty frame darkens the main menu.
     frame:
         style "main_menu_frame"
+        ##### TEXTBUTTON RENPY #####
+## Contenedor para los botones  
+
+## Espaciado entre botones  
+        #textbutton "Jugar" action Start()  
+        #textbutton "Cargar" action ShowMenu("load")  
+        #textbutton "Opciones" action ShowMenu("preferences")  
+        #textbutton "Acerca de" action ShowMenu("about")  
+        #textbutton "Ayuda" action ShowMenu("help")  
+        #textbutton "Salir" action Quit() 
+
+        ##### IMAGEBUTTON RENPY #####
+## Contenedor para los botones  
+    vbox:  
+        xalign 0.1  
+        yalign 0.5  
+        spacing 5  
+
+## Espaciado entre botones  
+        imagebutton:  
+            idle "UI/idle_jugar.png"  
+            hover "UI/hover_jugar.png"  
+            action Start()  
+            #hover_sound "audio/boton.mp3"
+
+        imagebutton:  
+            idle "UI/idle_cargar.png"  
+            hover "UI/hover_cargar.png"  
+            action ShowMenu("load")  
+            #hover_sound "audio/boton.mp3"
+
+        imagebutton:  
+            idle "UI/idle_opciones.png"  
+            hover "UI/hover_opciones.png"  
+            action ShowMenu("preferences")  
+            #hover_sound "audio/boton.mp3"
+
+        imagebutton:  
+            idle "UI/idle_acercade.png"  
+            hover "UI/hover_acercade.png"  
+            action ShowMenu("about")  
+            #hover_sound "audio/boton.mp3"
+
+        imagebutton:  
+            idle "UI/ayuda_idle.png"  
+            hover "UI/ayuda_hover.png"  
+            action ShowMenu("help")
+            #hover_sound "audio/boton.mp3"  
+
+        imagebutton:  
+            idle "UI/idle_salir.png"  
+            hover "UI/hover_salir.png"  
+            action Quit()
+            #hover_sound "audio/boton.mp3"
 
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
-    use navigation
+    # use navigation
 
     if gui.show_name:
 
@@ -387,7 +441,7 @@ style main_menu_frame:
     xsize 420
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    #background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
     xalign 1.0
